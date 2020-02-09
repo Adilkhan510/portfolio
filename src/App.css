@@ -5,12 +5,12 @@
 }
 .nav{
   font-size : 20px;
-  background-color: #cbc26d;
+  background-color:#fff9c4;
   height: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  opacity: 1;
+  justify-content: flex-end;
+  opacity: 0.5;
 }
 
 
@@ -18,6 +18,7 @@
   margin:10px;
   text-align: center;
   color: black;
+  margin-right: 20px;
 }
 
 a:hover{
@@ -44,7 +45,7 @@ a:hover{
   padding: 0.3%;
   height: 28px;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 0.5px solid black;
 }
 .about-top-button{
   width: 15px;
