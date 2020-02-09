@@ -16,10 +16,6 @@ function App() {
         <Route exact path="/" component= {Hero} /> 
         <Route exact path="/projects" component={()=> <Projects projects = {Content} />} />
       </Switch>
-
-      {/* <Typewriter /> */}
-      {/* <Projects /> */}
-
     </div>
   );
 }

@@ -1,10 +1,14 @@
+import dad from '../Images/dad.png'
+import netflix from '../Images/netflix.png';
+import habit from '../Images/habit.png'
+import way from '../Images/way.png';
 export default [
   {
     title: 'Netflix Social',
     description:
       'A Full Stack application where users can sign up and talk about their favorite movies. Collaborated with my fellow classmate on this. Full CRUD for comments on movies.',
-    skills: ['HTML5', 'CSS3', 'Css', 'JavaScript', 'ES6', 'ReactJS'],
-    image: 'blah',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'Node.js', 'MongoDB', 'Express'],
+    image: netflix,
     links: {
       github: 'SomeLink',
       preview: 'SomeLinks',
@@ -14,8 +18,8 @@ export default [
     title: 'Habit Tracker',
     description:
       'Full Stack application where users can create and track their habits. Main objective for the app was to show data visually. Created using the MERN stack.',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'ReactJS'],
-    image: 'blah',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS', 'MongoDB', 'Node.js', 'Express'],
+    image: habit,
     links: {
       github: 'Blah Blah ',
       preview: 'Blah Blah',
@@ -32,7 +36,7 @@ export default [
       'ReactJS',
       'ES6'
     ],
-    image: "Blah",
+    image: way,
     links: {
       github: 'https://git.generalassemb.ly/lindseyhiltner/project-wayfarer-frontend',
       preview: 'https://wayfarer-nightlife.herokuapp.com/',
@@ -48,7 +52,7 @@ export default [
       'ReactJS',
       'ES6'
     ],
-    image : "Blah",
+    image : dad,
     links : {
       github : 'Blahhh',
       preview : 'Blahh'

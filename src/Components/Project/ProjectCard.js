@@ -8,7 +8,7 @@ export default class ProjectCard extends Component {
         const {skills, description, img, links, title} = this.props
         return (
             <div className="project-card">
-                <img className="project-image"  />
+                <img className="project-image" src={img}  />
                 <div className="project-background" />
                 <div className="project-content">
                 <h3 className="project-title">{title}</h3>

@@ -8,7 +8,7 @@ export default class Projects extends Component {
         return (
             <div>
                 {projects.map((p)=>{
-                    return(<ProjectCard skills={p.skills} title={p.title} description={p.description} img={p.img} links={p.links} />)
+                    return(<ProjectCard skills={p.skills} title={p.title} description={p.description} img={p.image} links={p.links} />)
                 })}
             </div>
         )
