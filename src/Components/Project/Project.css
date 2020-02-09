@@ -1,0 +1,56 @@
+.project-card {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
+    0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 80%;
+    left: 10%;
+    height: auto;
+}
+.project-content {
+    padding: 60px;
+    width: 50%;
+}
+
+.project-skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-skill{
+    margin: 0 10px 3px 3px;
+    border: 2px solid rgba(31, 230, 233, 0.653);
+    padding: 5px;
+    font-size: 0.8em;
+    border-radius: 8px;
+}
+
+.project-title{
+    font-weight: 500;
+    font-size: 1.8em;
+    line-height: 38px;
+    margin-top: 0;
+    margin-bottom: 35px;
+    align-self: center;
+}
+
+.project-image{
+    margin:10px;
+}
+
+.project-description{
+    width:90%;
+    margin-left: 5px;
+}
+
+.project-links{
+    display: flex;
+}
+.link{
+    margin: 20px;
+}

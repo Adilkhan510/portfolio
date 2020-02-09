@@ -7,7 +7,7 @@ class Landing extends Component {
     render () { 
       return (
           <div className="Landing">
-              <img src={img} />
+              <img className="profile-img" src={img} />
               <h3>Hi, I am Adil Khan</h3>
               <p className="Landing">
                 I'm a  {' '} <Typical className="para"

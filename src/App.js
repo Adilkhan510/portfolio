@@ -3,17 +3,18 @@ import {Switch, Route} from 'react-router-dom'
 
 import './App.css';
 import Nav from './Components/nav';
-import Landing from './Components/Landing';
-import Typewriter from './Components/Typewriter';
-import Projects from './Components/Projects';
+import Hero from './Components/Hero';
+import Content from './Content/projects'
+import Projects from './Components/Project/Projects'
+
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Switch>
-        <Route exact path="/" component= {Landing} /> 
-        <Route exact path="/projects" component= {Projects} /> 
+        <Route exact path="/" component= {Hero} /> 
+        <Route exact path="/projects" component={()=> <Projects projects = {Content} />} />
       </Switch>
 
       {/* <Typewriter /> */}

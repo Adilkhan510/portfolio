@@ -9,22 +9,15 @@
   height: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   opacity: 1;
   font-weight: bold;
-}
-
-a{
-  color: black;
-  transition : all ease 500ms;
-  font-family: 'Kanit', sans-serif;
-  margin-right: 20px;
-  margin-top: 10px;
 }
 
 a:hover{
   color : black;
   transform: scale(1.1);
+  text-decoration: none;
 }
 
 .Landing{
@@ -52,7 +45,7 @@ h3{
   margin-top:10px;
 }
 
-img{
+.profile-img{
   width: 300px;
   height: 300px;
   border: 20px;
@@ -70,28 +63,4 @@ img{
   justify-content: space-evenly;
   height: 95vh;
   margin-top: 10px;
-}
-
-.card{
-  margin: 0 40px 0 40px;
-  height: 320px;
-  width: 450px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  border: 0px;
-  border-radius: 20px;
-}
-.card-main{
-  display: flex;
-  flex-direction: column;
-}
-
-.card-img{
-  width: 450px;
-  height: 200px;
-}
-
-.card-footer a{
-  margin: 5px
 }
