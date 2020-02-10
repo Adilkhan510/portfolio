@@ -55,7 +55,7 @@ export default [
     image : dad,
     links : {
       github : 'Blahhh',
-      preview : 'Blahh'
+      preview : 'https://jokes-react.herokuapp.com/'
     }
   }
 ];
