@@ -58,10 +58,17 @@ export default [
       github : 'https://github.com/Adilkhan510/Jokes-react',
       preview : 'https://jokes-react.herokuapp.com/'
     }
-  }
+  },
   {
     title: 'AdilKhan.me',
     description : 'My portfolio app created using React. Components take a JSON and creates projects out of it. In the future I can just update the JSON file and new apps should appear.',
+    skills : [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'ReactJS',
+      'ES6'
+    ],
     image : p,
     links : {
       github : 'https://github.com/Adilkhan510/portfolio',
