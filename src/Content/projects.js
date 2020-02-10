@@ -2,6 +2,7 @@ import dad from '../Images/dad.png'
 import netflix from '../Images/netflix.png';
 import habit from '../Images/habit.png'
 import way from '../Images/way.png';
+import p from '../Images/portfolio.png';
 export default [
   {
     title: 'Netflix Social',
@@ -10,8 +11,8 @@ export default [
     skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'Node.js', 'MongoDB', 'Express'],
     image: netflix,
     links: {
-      github: 'SomeLink',
-      preview: 'SomeLinks',
+      github: 'https://github.com/Adilkhan510/Netflix-social',
+      preview: 'https://enigmatic-meadow-90169.herokuapp.com/',
     },
   },
   {
@@ -21,7 +22,7 @@ export default [
     skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS', 'MongoDB', 'Node.js', 'Express'],
     image: habit,
     links: {
-      github: 'Blah Blah ',
+      github: 'https://github.com/Adilkhan510/HabitTracker-FrontEnd',
       preview: 'Blah Blah',
     },
   },
@@ -54,8 +55,17 @@ export default [
     ],
     image : dad,
     links : {
-      github : 'Blahhh',
+      github : 'https://github.com/Adilkhan510/Jokes-react',
       preview : 'https://jokes-react.herokuapp.com/'
+    }
+  }
+  {
+    title: 'AdilKhan.me',
+    description : 'My portfolio app created using React. Components take a JSON and creates projects out of it. In the future I can just update the JSON file and new apps should appear.',
+    image : p,
+    links : {
+      github : 'https://github.com/Adilkhan510/portfolio',
+      preview : 'https://adilkhan.herokuapp.com/'
     }
   }
 ];
