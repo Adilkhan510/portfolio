@@ -5,15 +5,20 @@ import way from '../Images/way.png';
 import p from '../Images/portfolio.png';
 export default [
   {
-    title: 'Netflix Social',
-    description:
-      'A Full Stack application where users can sign up and talk about their favorite movies. Collaborated with my fellow classmate on this. Full CRUD for comments on movies.',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'Node.js', 'MongoDB', 'Express'],
-    image: netflix,
-    links: {
-      github: 'https://github.com/Adilkhan510/Netflix-social',
-      preview: 'https://enigmatic-meadow-90169.herokuapp.com/',
-    },
+    title: 'AdilKhan.me',
+    description : 'My portfolio app created using React. Components take a JSON and creates projects out of it. In the future I can just update the JSON file and new apps should appear.',
+    skills : [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'ReactJS',
+      'ES6'
+    ],
+    image : p,
+    links : {
+      github : 'https://github.com/Adilkhan510/portfolio',
+      preview : 'https://adilkhan.herokuapp.com/'
+    }
   },
   {
     title: 'Habit Tracker',
@@ -60,19 +65,14 @@ export default [
     }
   },
   {
-    title: 'AdilKhan.me',
-    description : 'My portfolio app created using React. Components take a JSON and creates projects out of it. In the future I can just update the JSON file and new apps should appear.',
-    skills : [
-      'HTML5',
-      'CSS3',
-      'JavaScript',
-      'ReactJS',
-      'ES6'
-    ],
-    image : p,
-    links : {
-      github : 'https://github.com/Adilkhan510/portfolio',
-      preview : 'https://adilkhan.herokuapp.com/'
-    }
-  }
+    title: 'Netflix Social',
+    description:
+      'A Full Stack application where users can sign up and talk about their favorite movies. Collaborated with my fellow classmate on this. Full CRUD for comments on movies.',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'Node.js', 'MongoDB', 'Express'],
+    image: netflix,
+    links: {
+      github: 'https://github.com/Adilkhan510/Netflix-social',
+      preview: 'https://enigmatic-meadow-90169.herokuapp.com/',
+    },
+  },
 ];
