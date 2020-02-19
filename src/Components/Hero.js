@@ -28,13 +28,13 @@ class Landing extends Component {
                 wrapper="p" />
                 <Typical className="para"
                 steps={[
-                  `>{Hobbies : 'Playing Basketball', 'Reading scientific articles', learning new technologies} `,2000]}
+                  `>{Hobbies : 'Playing Basketball', 'Reading scientific articles', Programming} `,2000]}
                 // steps={[' {Programmer 😎', 1000, ' First Generation College  Graduate 🎓', 1000, ' Leader😁', 1000, ' Self-motivated Learner 🤓', 1000 ,' Hooper 🏀', 1000,]}
                 loop={Infinity}
                 wrapper="p" />
                 <Typical className="para"
                 steps={[
-                  `>Contact info : {email : 'adilkhan@ucsb.edu', linkedIn : https://www.linkedIn.com/in/adilmuneerkhan } `,2000]}
+                  `>Contact info : {email : 'adilkhandeveloper@gmail.com', linkedIn : https://www.linkedIn.com/in/adilmuneerkhan } `,2000]}
                 // steps={[' {Programmer 😎', 1000, ' First Generation College  Graduate 🎓', 1000, ' Leader😁', 1000, ' Self-motivated Learner 🤓', 1000 ,' Hooper 🏀', 1000,]}
                 loop={Infinity}
                 wrapper="p" />

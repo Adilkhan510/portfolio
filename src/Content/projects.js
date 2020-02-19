@@ -1,7 +1,6 @@
 import dad from '../Images/dad.png'
 import netflix from '../Images/netflix.png';
 import habit from '../Images/habit.png'
-import way from '../Images/way.png';
 import p from '../Images/portfolio.png';
 export default [
   {
@@ -17,35 +16,18 @@ export default [
     image : p,
     links : {
       github : 'https://github.com/Adilkhan510/portfolio',
-      preview : 'https://adilkhan.herokuapp.com/'
+      preview : 'https://adilkhan.me'
     }
   },
   {
     title: 'Habit Tracker',
     description:
-      'Full Stack application where users can create and track their habits. Main objective for the app was to show data visually. Created using the MERN stack.',
+      "Created user stories, sketched out wireframes, and incorporated RESTful API methods to develop full stack application allowing users to input and track their daily habits data.",
     skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'ReactJS', 'MongoDB', 'Node.js', 'Express'],
     image: habit,
     links: {
       github: 'https://github.com/Adilkhan510/HabitTracker-FrontEnd',
       preview: 'Blah Blah',
-    },
-  },
-  {
-    title: 'WayFarer App',
-    description:
-      'A group project where the task given was to create a travel community app where users can share tips about their favorite locations around the world.',
-    skills: [
-      'HTML5',
-      'CSS3',
-      'JavaScript',
-      'ReactJS',
-      'ES6'
-    ],
-    image: way,
-    links: {
-      github: 'https://git.generalassemb.ly/lindseyhiltner/project-wayfarer-frontend',
-      preview: 'https://wayfarer-nightlife.herokuapp.com/',
     },
   },
   {
