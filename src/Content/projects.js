@@ -49,7 +49,7 @@ export default [
   {
     title: 'Netflix Social',
     description:
-      'A Full Stack application where users can sign up and talk about their favorite movies. Collaborated with my fellow classmate on this. Full CRUD for comments on movies.',
+      'A Full Stack application where users can sign up and talk about their favorite movies. Collaborated with my fellow classmate on this. Full CRUD for comments on movies. Note :This project is still a work in progress.',
     skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'Node.js', 'MongoDB', 'Express'],
     image: netflix,
     links: {
