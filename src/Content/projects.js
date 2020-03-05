@@ -31,22 +31,6 @@ export default [
     },
   },
   {
-    title : 'Dad Jokes',
-    description : 'An app where users can upvote/downvote jokes. Backend for the app is in currently in progress.',
-    skills : [
-      'HTML5',
-      'CSS3',
-      'JavaScript',
-      'ReactJS',
-      'ES6'
-    ],
-    image : dad,
-    links : {
-      github : 'https://github.com/Adilkhan510/Jokes-react',
-      preview : 'https://jokes-react.herokuapp.com/'
-    }
-  },
-  {
     title: 'Netflix Social',
     description:
       'A Full Stack application where users can sign up and talk about their favorite movies. Collaborated with my fellow classmate on this. Full CRUD for comments on movies. Note :This project is still a work in progress.',
