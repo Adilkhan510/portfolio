@@ -1,8 +1,43 @@
-import dad from '../Images/dad.png'
+import way from '../Images/way.png'
 import netflix from '../Images/netflix.png';
 import habit from '../Images/habit.png'
 import p from '../Images/portfolio.png';
+import pic from '../Images/pic3.png'
 export default [
+  {
+    title: 'Covid-19 Tracker',
+    description : 'Corona virus tracker created using Material-Ui, JavaScript, and React. Data is pulled from a third-party api and passed down to the different components.',
+    skills : [
+      'Material-Ui',
+      'CSS3',
+      'JavaScript',
+      'ReactJS',
+      'ES6'
+    ],
+    image : pic,
+    links : {
+      github : 'https://github.com/Adilkhan510/Corona-virus-Tracker',
+      preview : 'na'
+    }
+  }, 
+  {
+    title: 'Wayfarer Travel App',
+    description : 'A community travel app where users can talk about their favorites things to do in different cities around the world.',
+    skills : [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'ReactJS',
+      'ES6',
+      "MongoDB",
+
+    ],
+    image : way,
+    links : {
+      github : 'https://git.generalassemb.ly/lindseyhiltner/project-wayfarer-frontend',
+      preview : 'https://wayfarer-nightlife.herokuapp.com/san-francisco'
+    }
+  },
   {
     title: 'AdilKhan.me',
     description : 'My portfolio app created using React. Components take a JSON and creates projects out of it. In the future I can just update the JSON file and new apps should appear.',
@@ -19,6 +54,7 @@ export default [
       preview : 'https://adilkhan.me'
     }
   },
+ 
   {
     title: 'Habit Tracker',
     description:
