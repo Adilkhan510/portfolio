@@ -17,7 +17,7 @@ export default [
     image : pic,
     links : {
       github : 'https://github.com/Adilkhan510/Corona-virus-Tracker',
-      preview : 'na'
+      preview : 'https://covid-19----tracker.herokuapp.com/'
     }
   }, 
   {
