@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "'Montserrat', sans-serif",
     fontSize : "35px",
     fontWeight : "bold",
-
+    zIndex : "100",
     '& > *': {
       margin: theme.spacing(1),
       width: theme.spacing(16),
@@ -55,10 +55,12 @@ const useStyles = makeStyles((theme) => ({
   },
   Typography : {
     fontFamily : "font-family: 'Raleway', sans-serif;",
-    color : "black"
+    color : "whitesmoke",
+    letterSpacing : "0.5px"
   },
-  Content : {
-    background : "#A6D8D4"
+  content : {
+    background : "#1B3F7D",
+    height : "280px"
   }
 }));
 
@@ -69,17 +71,17 @@ export default function SimplePaper() {
     <div className={classes.root}>
       <Container className={classes.paper}>
           <Paper className={classes.insideContainer} elevation={6}>
-          <img src={A} className={classes.img} />
+          {/* <img src={A} className={classes.img} /> */}
             <Paper className={classes.title} elevation={5}>
                 About me 
             </Paper>
             <Container>
-              <Paper Elevation= {4} className={classes.Content}>
+              <Paper Elevation= {4} className={classes.content}>
                 <Typography className={classes.Typography}>
-                  Hi, My name is Adil. I am full stack developer. I am first generation college graduate with a degree in BioPsychology. After graduating college I decided to explore the world of programming and found it to be quite interesting. I enjoy working with JavaScript, React and Python. 
-                <br></br>
-                <br />
-                I am also a huge basketball fan. My favorite player is Kobe Bryant due to his work ethic and dedication to his craft. My biggest goal in life is to provide educational resources to people back in my native country. 
+                  Some text Here Some text Here Some text Here Some text Here Some text Here 
+                  Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here.
+                  Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here.
+                  Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here 
                 </Typography>
               </Paper>
             </Container>

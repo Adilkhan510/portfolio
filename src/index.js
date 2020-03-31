@@ -13,9 +13,10 @@ ReactDOM.render(
             top: 0,
             left: 0,
             width: "100%",
-            height: "100%"
+            height: "100%",
+            zIndex : "-2"
         }}>
-            <Particles />
+            {/* <Particles /> */}
         </div>
         <App />
     </BrowserRouter>

@@ -13,23 +13,23 @@ export default ()=>(
             params={{
                 particles: {
                   number: {
-                    value: 60,
+                    value: 40,
                     density: {
                       enable: true,
-                      value_area: 1803.4120608655228
+                      value_area: 800,
                     }
                   },
                   color: {
                     value: "#ffffff"
                   },
                   shape: {
-                    type: "circle",
+                    type: "triangle",
                     stroke: {
-                      width: 2,
+                      width: 0,
                       color: "#000000"
                     },
                     polygon: {
-                      nb_sides: 4
+                      nb_sides: 9
                     },
                     image: {
                       src: "img/github.svg",
@@ -38,7 +38,7 @@ export default ()=>(
                     }
                   },
                   opacity: {
-                    value: 0.4008530152163807,
+                    value: 0.5,
                     random: false,
                     anim: {
                       enable: false,
@@ -59,10 +59,10 @@ export default ()=>(
                   },
                   line_linked: {
                     enable: true,
-                    distance: 0,
-                    color: "#ffffff",
-                    opacity: 0.3687847739990702,
-                    width: 0.6413648243462091
+                    distance: 150,
+                    color: "#000000",
+                    opacity: 0.4,
+                    width: 1
                   },
                   move: {
                     enable: true,
@@ -88,7 +88,7 @@ export default ()=>(
                     },
                     onclick: {
                       enable: false,
-                      mode: "bubble"
+                      mode: "push"
                     },
                     resize: true
                   },
@@ -107,7 +107,7 @@ export default ()=>(
                       speed: 3
                     },
                     repulse: {
-                      distance: 100,
+                      distance: 200,
                       duration: 0.4
                     },
                     push: {
