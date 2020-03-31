@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "'Montserrat', sans-serif",
     fontSize : "35px",
     fontWeight : "bold",
-    textAlign : "center",
+
     '& > *': {
       margin: theme.spacing(1),
       width: theme.spacing(16),
@@ -32,13 +32,14 @@ const useStyles = makeStyles((theme) => ({
       justifyContent : "space-evenly",
   },
   title : {
-      background : "yellow",
+      background : "#eeb14f",
       width : "230px",
       height : "60px",
       position: "relative",
       top: "-5%",
       left : "-2.5%",
-      padding : "5px"
+      padding : "5px",
+      textAlign : "center"
   },
   insideContainer : {
       width : "auto",
@@ -48,9 +49,16 @@ const useStyles = makeStyles((theme) => ({
     position : "absolute",
     borderRadius : "200%",
     marginLeft : "-4%",
-    top : "2px",
+    top : "4%",
     width : "200px",
     height : "200px"
+  },
+  Typography : {
+    fontFamily : "font-family: 'Raleway', sans-serif;",
+    color : "black"
+  },
+  Content : {
+    background : "#A6D8D4"
   }
 }));
 
@@ -66,12 +74,12 @@ export default function SimplePaper() {
                 About me 
             </Paper>
             <Container>
-              <Paper Elevation= {4}>
-                <Typography>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <Paper Elevation= {4} className={classes.Content}>
+                <Typography className={classes.Typography}>
+                  Hi, My name is Adil. I am full stack developer. I am first generation college graduate with a degree in BioPsychology. After graduating college I decided to explore the world of programming and found it to be quite interesting. I enjoy working with JavaScript, React and Python. 
                 <br></br>
                 <br />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                I am also a huge basketball fan. My favorite player is Kobe Bryant due to his work ethic and dedication to his craft. My biggest goal in life is to provide educational resources to people back in my native country. 
                 </Typography>
               </Paper>
             </Container>
