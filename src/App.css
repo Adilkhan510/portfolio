@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
 .nav{
   font-size : 20px;
   background-color : #eeb14f;
