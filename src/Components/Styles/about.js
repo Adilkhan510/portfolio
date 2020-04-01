@@ -13,7 +13,7 @@ export default (theme) => ({
         },
       },
     paper : {
-        [theme.breakpoints.up('sm')] : {
+        [theme.breakpoints.up('lg')] : {
             width : "90vw",
             height : "70vh",
             display : "flex",
@@ -32,22 +32,23 @@ export default (theme) => ({
             width : "230px",
         },
         width : 'auto',
-        height : "60px",
+        height : "auto",
         position: "relative",
         top: "-5%",
         left : "-2.5%",
         padding : "5px",
         textAlign : "center",
-        color : "whitesmoke"
+        color : "whitesmoke",
+        padding : "0.1rem"
     },
     insideContainer : {
-        [theme.breakpoints.up('sm')] : {
+        [theme.breakpoints.up('lg')] : {
             width : "40%",
             height : "400px"
         },
         minWidth : "250px",
         marginBottom : "2rem",
-        height : "200px"
+        height : "400px"
     },
     img :{
     position : "fixed",
@@ -62,10 +63,10 @@ export default (theme) => ({
         color : "black",
         letterSpacing : "0.5px",
         fontFamily: "'Montserrat', sans-serif",
-        fontSize : '35px',
+        fontSize : '20px',
         fontWeight : "bold",
         color: theme.palette.secondary,
-        [theme.breakpoints.up('sm')] : {
+        [theme.breakpoints.up('md')] : {
             fontSize : "35px",
             fontWeight : "bold",
         }
