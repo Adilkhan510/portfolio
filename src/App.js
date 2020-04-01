@@ -10,7 +10,8 @@ import Projects from './Components/Project/Projects'
 import About from './Components/About'
 import Particles from 'react-particles-js';
 import Navbar from './Components/Navbar.2'
-import theme from './Components/Styles/theme'
+import theme from './Components/Styles/theme.js'
+import { CssBaseline } from '@material-ui/core';
 
 
 
@@ -19,11 +20,13 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-        <Navbar />
-        <Switch>
-          <Route exact path="/" component= {About} /> 
-          <Route exact path="/projects" component={()=> <Projects projects = {Content} />} />
-        </Switch>
+        <CssBaseline>
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component= {About} /> 
+            <Route exact path="/projects" component={()=> <Projects projects = {Content} />} />
+          </Switch>
+        </CssBaseline>
       </ThemeProvider>
     </div>
   );
