@@ -15,7 +15,7 @@ export default (theme) => ({
     paper : {
         [theme.breakpoints.up('lg')] : {
             width : "90vw",
-            height : "70vh",
+            height : "auto",
             display : "flex",
             flexDirection : "row",
             justifyContent : "space-evenly",
@@ -81,4 +81,17 @@ export default (theme) => ({
     flexDirection : "row",
     justifyContent : "space-evenly",
     },
+    bottomNavigation : { 
+            [theme.breakpoints.up('lg')] : {
+                width : "90vw",
+                height : "auto",
+                display : "flex",
+                flexDirection : "row",
+                justifyContent : "space-evenly",
+            },
+            display : "flex",
+            flexDirection : "column",
+            width : "90vw",
+            height : "70vh",
+    }
 })

@@ -28,27 +28,30 @@ const useStyles= makeStyles(theme=>({
         color : "black",
         letterSpacing : "0.5px",
         fontFamily: "'Montserrat', sans-serif",
-        fontSize : '1rem',
+        fontSize : '1.2rem',
         fontWeight : "bold",
         margin : "5px",
+        textAlign : "center",
         color: theme.palette.secondary,
         [theme.breakpoints.up('md')] : {
             fontSize : "1.5rem",
             fontWeight : "bold",
-            margin : "5px"
+            margin : "5px",
+            textAlign : "center"
         }
     },
     description : {
         color : "black",
         letterSpacing : "0.7px",
         fontFamily: "'Lato', sans-serif",
-        fontSize : '0.7rem',
+        fontSize : '1rem',
         fontWeight : "light",
         padding : "0.4rem",
+        margin : "50px 0",
         color: theme.palette.secondary,
         [theme.breakpoints.up('md')] : {
             fontSize : "1rem",
-            fontWeight : "bold",
+            fontWeight : "light",
             padding : "0.4rem"
         }
     }

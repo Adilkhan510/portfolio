@@ -12,6 +12,7 @@ import Particles from 'react-particles-js'
 import A from '../Images/A.png'
 import svg from '../Svg/man.svg'
 import styles from './Styles/about'
+import Contact from './Contact'
 
 
 function SimplePaper(props) {
@@ -43,6 +44,9 @@ function SimplePaper(props) {
               
             </Container>
           </Paper>
+      </Container>
+      <Container className={classes.bottomNavigation}>
+        <Contact />
       </Container>
     </div>
   );

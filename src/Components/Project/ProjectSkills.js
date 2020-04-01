@@ -6,7 +6,7 @@ const useStyles = makeStyles(theme => ({
     skills : {
         margin: "0 10px 3px 3px",
         border: "2px solid rgba(31, 230, 233, 0.653)",
-        padding: "5px",
+        padding: "10px",
         fontSize: "0.8em",
         borderRadius: "8px"
     }
