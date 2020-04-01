@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
       justifyContent : "space-evenly",
   },
   title : {
-      background : "#eeb14f",
+      background : theme.palette.secondary,
       width : "230px",
       height : "60px",
       position: "relative",
@@ -55,11 +55,11 @@ const useStyles = makeStyles((theme) => ({
   },
   Typography : {
     fontFamily : "font-family: 'Raleway', sans-serif;",
-    color : "whitesmoke",
+    color : "black",
     letterSpacing : "0.5px"
   },
   content : {
-    background : "#1B3F7D",
+    background : theme.palette.success,
     height : "280px"
   }
 }));
@@ -77,12 +77,21 @@ export default function SimplePaper() {
             </Paper>
             <Container>
               <Paper Elevation= {4} className={classes.content}>
-                <Typography className={classes.Typography}>
-                  Some text Here Some text Here Some text Here Some text Here Some text Here 
-                  Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here.
-                  Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here.
-                  Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here                   Some text Here Some text Here Some text Here Some text Here Some text Here 
-                </Typography>
+                <Container>
+                  <Typography>
+                    Container #1
+                  </Typography>
+                </Container>
+                <Container>
+                  <Typography>
+                    Container #2
+                  </Typography>
+                </Container>
+                <Container>
+                  <Typography>
+                    Container #3
+                  </Typography>
+                </Container>
               </Paper>
             </Container>
           </Paper>
