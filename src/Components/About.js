@@ -29,19 +29,22 @@ function SimplePaper(props) {
                 About Me
               </Typography>
             </Paper>
-            <Container>
-
+            <Container className={classes.aboutMe}>
+                <Typography paragraph={true}>
+                  I am a software developer based out of <strong>San Francisco, Ca</strong>. I was introduced to programming through an upper level BioPsych lab in which we analyzed brain tissue using MatLab. After my initial exposure, I was curious enough to buy a python course on Udemy and have been learning ever since. <br />
+                  Outside of programming, I like to play basketball, be active and take on new challenges. I believe in the idea of the best way to get the most out of life is by challenging your self. 
+                </Typography>
             </Container>
           </Paper>
           <Paper className={classes.insideContainer} elevation={6}>
           {/* <img src={A} className={classes.img} /> */}
             <Paper className={classes.title} elevation={5}>
               <Typography className={classes.typography}>
-                Background 
+                Skills  
               </Typography>
             </Paper>
             <Container>
-              
+
             </Container>
           </Paper>
       </Container>

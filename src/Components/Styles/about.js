@@ -93,5 +93,7 @@ export default (theme) => ({
             flexDirection : "column",
             width : "90vw",
             height : "70vh",
+    },
+    aboutMe: {
     }
 })
