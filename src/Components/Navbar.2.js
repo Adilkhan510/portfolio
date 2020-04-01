@@ -8,6 +8,8 @@ import IconButton from '@material-ui/core/IconButton';
 import { Tabs, Tab } from '@material-ui/core'
 import {Link} from 'react-router-dom'
 
+import A from "../Images/logo2.png"
+
 const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
@@ -26,6 +28,12 @@ const useStyles = makeStyles(theme => ({
       fontWeight : "700",
       minWidth : "10",
       color : "whitesmoke"
+  },
+  img : {
+    borderRadius : "100px",
+    height : "60px",
+    width : "60px",
+    padding: "5px"
   }
 }));
 
@@ -51,6 +59,7 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="static" color="secondary">
         <Toolbar>
+          <img src={A} className={classes.img} />
             <Tabs value={value} className={classes.tabsContainer} onChange={handleChange}>
                 <Tab value={0} className={classes.tab} label={<i class="fas fa-home">  Home</i>} component={Link} to="/" />
                 <Tab  value={1} className={classes.tab} label={<i class="fas fa-tasks"> Projects</i>} component={Link} to="/projects" />
