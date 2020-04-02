@@ -13,7 +13,7 @@ export default ()=>(
             params={{
                 particles: {
                   number: {
-                    value: 80,
+                    value: 30,
                     density: {
                       enable: true,
                       value_area: 800,
@@ -84,10 +84,10 @@ export default ()=>(
                   events: {
                     onhover: {
                       enable: true,
-                      mode: "repulse"
+                      mode: "grab"
                     },
                     onclick: {
-                      enable: false,
+                      enable: true,
                       mode: "push"
                     },
                     resize: true

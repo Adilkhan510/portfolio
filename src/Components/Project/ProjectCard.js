@@ -32,12 +32,16 @@ const useStyles= makeStyles(theme=>({
         fontWeight : "bold",
         margin : "5px",
         textAlign : "center",
+        padding : "5px",
+        color : "white",
         backgroundColor: "#D58180",
         [theme.breakpoints.up('md')] : {
             fontSize : "1.5rem",
             fontWeight : "bold",
             margin : "5px",
-            textAlign : "center"
+            textAlign : "center",
+            padding : "5px",
+            color : "white",
         }
     },
     description : {
@@ -52,7 +56,7 @@ const useStyles= makeStyles(theme=>({
         [theme.breakpoints.up('md')] : {
             fontSize : "1rem",
             fontWeight : "light",
-            padding : "0.4rem"
+            padding : "10px"
         }
     }
 
