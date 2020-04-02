@@ -23,7 +23,7 @@ export default (theme) => ({
         display : "flex",
         flexDirection : "column",
         width : "90vw",
-        height : "70vh",
+        height : "auto",
 
     },
     title : {

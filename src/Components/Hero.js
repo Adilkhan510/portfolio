@@ -4,10 +4,14 @@ import {Paper, Container, makeStyles, Typography} from '@material-ui/core';
 
 const useStyles = makeStyles(theme=>({
   text : {
+    [theme.breakpoints.up('lg')]: {
+      fontFamily : "'Monoton', cursive;",
+      fontSize: "20px",
+      lineHeight : "60px",
+    },
     fontFamily : "'Monoton', cursive;",
-    fontSize: "20px",
-    lineHeight : "60px"
-  }
+    fontSize: "15px",
+    lineHeight : "60px"},
 }))
 
 
@@ -26,7 +30,7 @@ const Skills = ()=>{
   })
   return (
     <Container>
-      <Paper>
+      <Paper className={classes.container}>
         <Typography className={classes.text}>Technical Skills : </Typography>
         <Typical className={classes.text}
           steps={wait ? ["JavaScript, React, Python, Node, Express, Firebase, MongoDB, and Postgres.",,4000] : ""}
