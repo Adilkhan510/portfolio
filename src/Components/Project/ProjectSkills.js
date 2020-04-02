@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
         border: "2px solid rgba(31, 230, 233, 0.653)",
         padding: "10px",
         fontSize: "0.8em",
-        borderRadius: "8px"
+        borderRadius: "8px",
     }
 }))
 

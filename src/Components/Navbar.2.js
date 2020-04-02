@@ -27,7 +27,7 @@ const useStyles = makeStyles(theme => ({
       textTransform : "none",
       fontWeight : "700",
       minWidth : "10",
-      color : "whitesmoke"
+      color : "#000000"
   },
   img : {
     borderRadius : "100px",

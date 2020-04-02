@@ -13,6 +13,7 @@ import A from '../Images/A.png'
 import svg from '../Svg/man.svg'
 import styles from './Styles/about'
 import Contact from './Contact'
+import Skills from './Hero'
 
 
 function SimplePaper(props) {
@@ -44,7 +45,7 @@ function SimplePaper(props) {
               </Typography>
             </Paper>
             <Container>
-
+              <Skills />
             </Container>
           </Paper>
       </Container>

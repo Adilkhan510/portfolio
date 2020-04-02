@@ -13,12 +13,13 @@ const useStyles = makeStyles(theme=>({
         flexDirection : "row",
         justifyContent : "space-evenly",
         alignItems : "center",
+        background: theme.palette.secondary.light
     },
-    width : "auto"
+    width : "auto",
+    boxShadow : theme.shadows[6]
   },
   icons: {
       fontSize: "35px",
-      color : "blue"
   }
 }));
 
@@ -31,18 +32,18 @@ export default function LabelBottomNavigation() {
   };
 
   return (
-    <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
+    <BottomNavigation elevation={4} value={value} onChange={handleChange} className={classes.root}>
         <Button>
-            <a className={classes.icons}><i className="fab fa-github-square icons"></i></a>
+            <a href="https://github.com/Adilkhan510" className={classes.icons}><i className="fab fa-github-square icons" style={{color : "black"}}></i></a>
         </Button>
         <Button>
-            <a className={classes.icons}><i className="fab fa-linkedin-in" style={{
+            <a href="https://www.linkedin.com/in/adilmuneerkhan/" className={classes.icons}><i className="fab fa-linkedin-in" style={{
                 color: "blue"
             }}></i></a>
         </Button>
         <Button>
-            <a className={classes.icons}><i className="fa fa-file" style={{
-                color : "grey"
+            <a href="https://drive.google.com/open?id=180NR6PQW3uQgtDAr8C_KfgpVk1f6W6SX" className={classes.icons}><i className="fa fa-file" style={{
+                color : "#D58180"
             }}></i></a>
         </Button>
     </BottomNavigation>

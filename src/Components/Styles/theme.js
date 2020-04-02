@@ -9,7 +9,7 @@ export default createMuiTheme({
             // contrastText: will be calculated to contrast with palette.primary.main
           },
           secondary: {
-            main: '#D58180',
+            main: '#FCFCFB',
             // dark: will be calculated from palette.secondary.main,
           },
           error : {
@@ -20,6 +20,9 @@ export default createMuiTheme({
           },
           info : {
             main: "#3B3542"
+          },
+          main: {
+            main: "#D58180"
           }
     }
 })

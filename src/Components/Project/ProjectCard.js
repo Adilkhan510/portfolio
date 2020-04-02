@@ -32,7 +32,7 @@ const useStyles= makeStyles(theme=>({
         fontWeight : "bold",
         margin : "5px",
         textAlign : "center",
-        color: theme.palette.secondary,
+        backgroundColor: "#D58180",
         [theme.breakpoints.up('md')] : {
             fontSize : "1.5rem",
             fontWeight : "bold",
