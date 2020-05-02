@@ -21,24 +21,6 @@ export default [
     }
   }, 
   {
-    title: 'Wayfarer Travel App',
-    description : 'A community travel app where users can talk about their favorites things to do in different cities around the world.',
-    skills : [
-      'HTML5',
-      'CSS3',
-      'JavaScript',
-      'ReactJS',
-      'ES6',
-      "MongoDB",
-
-    ],
-    image : way,
-    links : {
-      github : 'https://git.generalassemb.ly/lindseyhiltner/project-wayfarer-frontend',
-      preview : 'https://wayfarer-nightlife.herokuapp.com/san-francisco'
-    }
-  },
-  {
     title: 'AdilKhan.me',
     description : 'My portfolio app created using React. Components take a JSON and creates projects out of it. In the future I can just update the JSON file and new apps should appear.',
     skills : [
