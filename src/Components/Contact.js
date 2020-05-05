@@ -42,7 +42,7 @@ export default function LabelBottomNavigation() {
             }}></i></a>
         </Button>
         <Button>
-            <a href="https://drive.google.com/open?id=1839iCOMj3VEU67ju_K_F5Gwea1yaDOWy" className={classes.icons}><i className="fa fa-file" style={{
+            <a href="https://drive.google.com/file/d/1iBZ0-GMqvq268ls1mHaXmHUSE8rkWgN-/view?usp=sharing" className={classes.icons}><i className="fa fa-file" style={{
                 color : "#D58180"
             }}></i></a>
         </Button>
