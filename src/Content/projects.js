@@ -3,6 +3,7 @@ import netflix from '../Images/netflix.png';
 import habit from '../Images/habit.png'
 import p from '../Images/portfolio.png';
 import pic from '../Images/pic3.png'
+import portfolio from '../Images/portfolio2.png'
 export default [
   {
     title: 'Covid-19 Tracker',
@@ -30,7 +31,7 @@ export default [
       'ReactJS',
       'ES6'
     ],
-    image : p,
+    image : portfolio,
     links : {
       github : 'https://github.com/Adilkhan510/portfolio',
       preview : 'https://adilkhan.me'

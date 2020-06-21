@@ -39,7 +39,6 @@ export default (theme) => ({
         padding : "5px",
         textAlign : "center",
         color : "whitesmoke",
-        padding : "0.1rem"
     },
     insideContainer : {
         [theme.breakpoints.up('lg')] : {
@@ -48,7 +47,6 @@ export default (theme) => ({
         },
         minWidth : "250px",
         marginBottom : "2rem",
-        height : "400px"
     },
     img :{
     position : "fixed",
@@ -71,6 +69,13 @@ export default (theme) => ({
             fontWeight : "bold",
         }
     },
+    typography2 : {
+        color : "black",
+        letterSpacing : "0.5px",
+        fontFamily: "'Montserrat', sans-serif",
+        fontSize : '15px',
+        fontWeight : "bold",
+    },
     content : {
     height : "280px",
     textOverflow: "ellipsis",
@@ -92,8 +97,25 @@ export default (theme) => ({
             display : "flex",
             flexDirection : "column",
             width : "90vw",
-            height : "70vh",
+
     },
-    aboutMe: {
+    projectsHeader : {
+        background : "#D58180",
+        [theme.breakpoints.up('sm')]: {
+            width : "230px",
+        },
+        width : 'auto',
+        height : "auto",
+        position: "relative",
+        padding : "5px",
+        textAlign : "center",
+        color : "whitesmoke",
+        fontSpacing : "-0.5px"
+    },
+    projectsContainer : {
+        display : "flex",
+        flexDirection : "row",
+        justifyContent : "center",
+        alignItems : "center"
     }
 })

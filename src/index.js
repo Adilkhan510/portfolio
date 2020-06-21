@@ -16,7 +16,7 @@ ReactDOM.render(
             height: "100%",
             zIndex : "-2"
         }}>
-            <Particles />
+            {/* <Particles /> */}
         </div>
         <App />
     </BrowserRouter>

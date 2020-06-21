@@ -21,7 +21,6 @@ const useStyles= makeStyles(theme=>({
         borderRadius: "4px",
         boxShadow: "0 50px 100px rgba(50, 50, 93, 0.05),0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1)",
         overflow: "hidden",
-        width: "80%",
         height: "auto"
     },
     typography : {

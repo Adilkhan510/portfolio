@@ -60,10 +60,6 @@ export default function ButtonAppBar() {
       <AppBar position="static" color="secondary">
         <Toolbar>
           <img src={A} className={classes.img} />
-            <Tabs value={value} className={classes.tabsContainer} onChange={handleChange}>
-                <Tab value={0} className={classes.tab} label={<i class="fas fa-home">  Home</i>} component={Link} to="/" />
-                <Tab  value={1} className={classes.tab} label={<i class="fas fa-tasks"> Projects</i>} component={Link} to="/projects" />
-            </Tabs>
         </Toolbar>
       </AppBar>
     </div>
