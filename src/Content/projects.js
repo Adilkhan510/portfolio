@@ -26,7 +26,7 @@ export default [
     }
   },
   {
-    title: 'AdilKhan.me',
+    title: 'Portfolio',
     description : 'My personal portfolio website. Took advantage of reacts component usability to avoid making seperate cards for each of my projects.',
     skills : [
       'HTML5',

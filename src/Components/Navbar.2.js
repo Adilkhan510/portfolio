@@ -83,25 +83,25 @@ export default function ButtonAppBar() {
                     to="about"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-100}
                     duration={500}
-                    onClick={scrollToTop}>About</Link>
+                    >About</Link>
           <Link className={classes.link}
                     activeClass="active"
                     to="projects"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-0}
                     duration={500}
-                    onClick={scrollToTop}>Projects</Link>
+                    >Projects</Link>
           <Link className={classes.link}
                     activeClass="active"
                     to="contact"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={-10}
                     duration={500}
-                    onClick={scrollToTop}>Contact</Link>
+                    >Contact</Link>
             </div>
         </Toolbar>
       </AppBar>
