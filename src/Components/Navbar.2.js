@@ -42,9 +42,12 @@ const useStyles = makeStyles(theme => ({
     textTransform : "none",
     fontSpacing : "-0.5px",
     fontWeight : "800",
-    fontSize : "1.2rem",
+    fontSize : "1rem",
     margin : "0 0.5rem",
-    fontFamily: "'Montserrat', sans-serif",
+    fontFamily: "'Montserrat'",
+    '&:hover' : {
+      cursor : "pointer"
+    }
   },
   links : {
     marginLeft : "auto"

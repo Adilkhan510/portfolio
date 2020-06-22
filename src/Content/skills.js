@@ -12,7 +12,7 @@ export const softwareSkills = [
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
+      skillName: "Javascript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -39,4 +39,12 @@ export const softwareSkills = [
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
+    {
+      skillName : "Typescript",
+      fontAwesomeClassname: "fas fa-scroll"
+    },
+    {
+      skillName : "MongoDB",
+      fontAwesomeClassname: "fas fa-database"
+    }
   ]

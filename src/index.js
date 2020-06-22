@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from 'react-router-dom'
-import Particles from './Components/Particles/Particles'
 
 ReactDOM.render(
     <BrowserRouter>
@@ -16,7 +15,6 @@ ReactDOM.render(
             height: "100%",
             zIndex : "-2"
         }}>
-            {/* <Particles /> */}
         </div>
         <App />
     </BrowserRouter>

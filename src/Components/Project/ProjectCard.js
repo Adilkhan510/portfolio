@@ -6,6 +6,7 @@ import './Project.css'
 
 const useStyles= makeStyles(theme=>({
     paper : {
+        padding : "1rem",
         width : "auto",
         [theme.breakpoints.up('lg')] : {
             width : "50%"
@@ -24,14 +25,12 @@ const useStyles= makeStyles(theme=>({
         height: "auto"
     },
     typography : {
-        color : "black",
         letterSpacing : "0.5px",
         fontFamily: "'Montserrat', sans-serif",
         fontSize : '1.2rem',
         fontWeight : "bold",
         margin : "5px",
         textAlign : "center",
-        padding : "5px",
         color : "white",
         backgroundColor: "#D58180",
         [theme.breakpoints.up('md')] : {
