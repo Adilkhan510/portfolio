@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 import { ThemeProvider } from '@material-ui/styles'
 
 import './App.css';
@@ -18,7 +18,7 @@ function App() {
         <CssBaseline>
           <Navbar />
           <Switch>
-            <Route exact path="/" component= {About} /> 
+            <Route exact path="/" component={About} />
           </Switch>
         </CssBaseline>
       </ThemeProvider>

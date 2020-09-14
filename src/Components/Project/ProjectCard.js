@@ -10,7 +10,10 @@ const useStyles = makeStyles(theme => ({
         width: "auto",
         [theme.breakpoints.up('lg')]: {
             width: "50%"
-        }
+        },
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-evenly"
     },
     projectCard: {
         position: "relative",
@@ -69,12 +72,12 @@ const ProjectCard = (props) => {
     return (
         <Container className={classes.projectCard}>
             <img className="project-image" src={img} />
-            <Paper className={classes.paper}>
+            <div className={classes.paper}>
                 <Typography className={classes.typography}>{title}</Typography>
                 <Typography className={classes.description}>{description}</Typography>
                 <ProjectSkills skills={skills} />
                 <ProjectLinks links={links} />
-            </Paper>
+            </div>
         </Container>
     )
 }

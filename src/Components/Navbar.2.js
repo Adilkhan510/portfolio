@@ -6,53 +6,12 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import { Tabs, Tab } from '@material-ui/core'
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 import A from "../Images/logo2.png"
+import styles from './Styles/navbar'
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1,
-    background : theme.palette.primary
-  },
-  title: {
-    flexGrow: 1,
-    color : "#ffffff"
-  },
-  tabsContainer : {
-      marginLeft : "auto"
-  },
-  tab : {
-      fontSize : "1rem",
-      textTransform : "none",
-      fontWeight : "700",
-      minWidth : "10",
-      color : "#000000"
-  },
-  img : {
-    borderRadius : "100px",
-    height : "60px",
-    width : "60px",
-    padding: "5px"
-  },
-  toolbar : {
-    ...theme.mixins.toolbar
-  },
-  link : {
-    textTransform : "none",
-    fontSpacing : "-0.5px",
-    fontWeight : "800",
-    fontSize : "1rem",
-    margin : "0 0.5rem",
-    fontFamily: "'Montserrat'",
-    '&:hover' : {
-      cursor : "pointer"
-    }
-  },
-  links : {
-    marginLeft : "auto"
-  }
-}));
+const useStyles = makeStyles(styles);
 
 export default function ButtonAppBar() {
   const classes = useStyles();
@@ -65,13 +24,13 @@ export default function ButtonAppBar() {
     setValue(newValue);
   };
 
-  useEffect(()=>{
-      if(window.location.pathname === "/" && value !== 0){
-          setValue(0)
-      }
-      if(window.location.pathname === "/projects" && value !== 1){
-          setValue(1)
-      }
+  useEffect(() => {
+    if (window.location.pathname === "/" && value !== 0) {
+      setValue(0)
+    }
+    if (window.location.pathname === "/projects" && value !== 1) {
+      setValue(1)
+    }
   })
 
 
@@ -81,31 +40,43 @@ export default function ButtonAppBar() {
         <Toolbar>
           <img src={A} className={classes.img} />
           <div className={classes.links}>
-          <Link className={classes.link}
-                    activeClass="active"
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                    >About</Link>
-          <Link className={classes.link}
-                    activeClass="active"
-                    to="projects"
-                    spy={true}
-                    smooth={true}
-                    offset={-0}
-                    duration={500}
-                    >Projects</Link>
-          <Link className={classes.link}
-                    activeClass="active"
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={-10}
-                    duration={500}
-                    >Contact</Link>
-            </div>
+            <Link className={classes.link}
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              <Typography className={classes.typography}>
+                About
+              </Typography>
+            </Link>
+            <Link className={classes.link}
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-0}
+              duration={500}
+            >
+              <Typography className={classes.typography}>
+                Projects
+              </Typography>
+            </Link>
+            <Link className={classes.link}
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-10}
+              duration={500}
+            >
+              <Typography className={classes.typography}>
+                Contact
+              </Typography>
+            </Link>
+          </div>
         </Toolbar>
       </AppBar>
       <div className={classes.toolbar} />

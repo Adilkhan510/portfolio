@@ -22,7 +22,7 @@ export default (theme) => ({
         },
         display: "flex",
         flexDirection: "column",
-        width: "90vw",
+        width: "70vw",
         height: "auto",
 
     },
@@ -49,13 +49,12 @@ export default (theme) => ({
         marginBottom: "2rem",
     },
     img: {
-        position: "fixed",
-        borderRadius: "200%",
+        position: "relative",
         marginLeft: "-4%",
-        top: "8%",
-        left: '50%',
-        width: "200px",
-        height: "200px"
+        // top: "8%",
+        // left: '50%',
+        width: "500px",
+        height: "500px"
     },
     typography: {
         color: "black",
@@ -76,6 +75,7 @@ export default (theme) => ({
         fontFamily: "'Montserrat', sans-serif",
         fontSize: '15px',
         fontWeight: "400",
+        padding: "20px"
     },
     content: {
         height: "280px",
