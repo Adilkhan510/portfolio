@@ -4,15 +4,15 @@ import ProjectSkills from './ProjectSkills'
 import ProjectLinks from './ProjectLinks'
 import './Project.css'
 
-const useStyles= makeStyles(theme=>({
-    paper : {
-        padding : "1rem",
-        width : "auto",
-        [theme.breakpoints.up('lg')] : {
-            width : "50%"
+const useStyles = makeStyles(theme => ({
+    paper: {
+        padding: "1rem",
+        width: "auto",
+        [theme.breakpoints.up('lg')]: {
+            width: "50%"
         }
     },
-    projectCard : {
+    projectCard: {
         position: "relative",
         display: "flex",
         flexDirection: "row",
@@ -24,37 +24,38 @@ const useStyles= makeStyles(theme=>({
         overflow: "hidden",
         height: "auto"
     },
-    typography : {
-        letterSpacing : "0.5px",
+    typography: {
         fontFamily: "'Montserrat', sans-serif",
-        fontSize : '1.2rem',
-        fontWeight : "bold",
-        margin : "5px",
-        textAlign : "center",
-        color : "white",
+        fontSize: '20px',
+        fontWeight: "bold",
+        margin: "5px",
+        textAlign: "center",
+        color: "white",
+        textTransform: "uppercase",
+        letterSpacing: "1px",
+        color: "white",
         backgroundColor: "#D58180",
-        [theme.breakpoints.up('md')] : {
-            fontSize : "1.5rem",
-            fontWeight : "bold",
-            margin : "5px",
-            textAlign : "center",
-            padding : "5px",
-            color : "white",
+        [theme.breakpoints.up('md')]: {
+            fontSize: "1rem",
+            fontWeight: "bold",
+            margin: "5px",
+            textAlign: "center",
+            padding: "5px",
+            color: "white",
         }
     },
-    description : {
-        color : "black",
-        letterSpacing : "0.7px",
+    description: {
+        color: "grey",
+        letterSpacing: "-0.5px",
         fontFamily: "'Lato', sans-serif",
-        fontSize : '1rem',
-        fontWeight : "light",
-        padding : "0.4rem",
-        margin : "50px 0",
-        color: theme.palette.secondary,
-        [theme.breakpoints.up('md')] : {
-            fontSize : "1rem",
-            fontWeight : "light",
-            padding : "10px"
+        fontSize: '1rem',
+        fontWeight: "light",
+        padding: "0.4rem",
+        margin: "50px 0",
+        [theme.breakpoints.up('md')]: {
+            fontSize: "1rem",
+            fontWeight: "light",
+            padding: "10px"
         }
     }
 
@@ -62,20 +63,20 @@ const useStyles= makeStyles(theme=>({
 
 
 
-const ProjectCard = (props)=> {
-        const {skills, description, img, links, title} = props
-        const classes = useStyles()
-        return (
-            <Container className={classes.projectCard}>
-                <img className="project-image" src={img}  />
-                    <Paper className={classes.paper}>
-                    <Typography className={classes.typography}>{title}</Typography>
-                        <Typography className={classes.description}>{description}</Typography>
-                        <ProjectSkills skills={skills} />
-                        <ProjectLinks links={links} />
-                    </Paper>
-            </Container>
-            )
+const ProjectCard = (props) => {
+    const { skills, description, img, links, title } = props
+    const classes = useStyles()
+    return (
+        <Container className={classes.projectCard}>
+            <img className="project-image" src={img} />
+            <Paper className={classes.paper}>
+                <Typography className={classes.typography}>{title}</Typography>
+                <Typography className={classes.description}>{description}</Typography>
+                <ProjectSkills skills={skills} />
+                <ProjectLinks links={links} />
+            </Paper>
+        </Container>
+    )
 }
 
 export default ProjectCard
