@@ -31,9 +31,11 @@ function About(props) {
           </Paper>
           <Container className={classes.aboutMe}>
             <Typography className={classes.typography2} paragraph={true}>
-              I am a software developer based out of <strong>San Francisco, Ca</strong>. I have been programming for about <strong>1 year</strong> now. I <strong>LOVE</strong> working with react, and building a clean frontend. I am constantly learning new technologies or working on projects. Coding to me is a life long journey of learning and honing your skills.<br />
-              Outside of programming, I like to play basketball, be active and travel to new places. I look forward to connecting with you.
-              </Typography>
+              I am a software developer based out of <strong>San Francisco, Ca</strong>. I have been programming for about <strong>1 year</strong> now. I <strong>LOVE</strong> working with react, and building a clean frontend.<br />
+              <strong>
+                If you would like to discuss a potential project please contact me via my email or connect with me on LinkedIn.
+              </strong>
+            </Typography>
           </Container>
         </Paper>
         <Paper className={classes.insideContainer} elevation={6}>

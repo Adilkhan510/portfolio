@@ -8,8 +8,8 @@ import movie from '../Images/movieMax.png'
 export default [
   {
     title: 'Movie Max',
-    description : 'An fullstack movie database app where users have the ability to get information about specific movies and have the ability to add it to their favorites.',
-    skills : [
+    description: 'An fullstack movie database app where users have the ability to get information about specific movies and have the ability to add it to their favorites.',
+    skills: [
       'Material-Ui',
       'CSS3',
       'JavaScript',
@@ -19,45 +19,28 @@ export default [
       'MongoDB',
       'ES6'
     ],
-    image : movie,
-    links : {
-      github : 'https://github.com/Adilkhan510/MovieMax',
-      preview : 'https://moviemax-2020.herokuapp.com/'
+    image: movie,
+    links: {
+      github: 'https://github.com/Adilkhan510/MovieMax',
+      preview: 'https://moviemax-2020.herokuapp.com/'
     }
   },
   {
     title: 'Portfolio',
-    description : 'My personal portfolio website. Took advantage of reacts component usability to avoid making seperate cards for each of my projects.',
-    skills : [
+    description: 'My personal portfolio website. Took advantage of reacts component usability to avoid making seperate cards for each of my projects.',
+    skills: [
       'HTML5',
       'CSS3',
       'JavaScript',
       'ReactJS',
       'ES6'
     ],
-    image : portfolio,
-    links : {
-      github : 'https://github.com/Adilkhan510/portfolio',
-      preview : 'https://adilkhan.me'
+    image: portfolio,
+    links: {
+      github: 'https://github.com/Adilkhan510/portfolio',
+      preview: 'https://adilkhan.me'
     }
   },
-  {
-    title: 'Wayfarer Travel App',
-    description : 'A full stack travel application where users can get more details about specific places from other users on that app.',
-    skills : [
-      'React',
-      'JavaScript',
-      'Node',
-      'Express',
-      'MongoDB',
-      'ES6',
-    ],
-    image : way,
-    links : {
-      github : 'https://git.generalassemb.ly/lindseyhiltner/project-wayfarer-frontend/tree/submaster/src',
-      preview : 'https://wayfarer-nightlife.herokuapp.com/'
-    }
-  }, 
   {
     title: 'Habit Tracker',
     description:
@@ -82,18 +65,18 @@ export default [
   },
   {
     title: 'Covid-19 Tracker',
-    description : 'Corona virus tracker created using Material-Ui, JavaScript, and React. Data is pulled from a third-party api and passed down to the different components.',
-    skills : [
+    description: 'Corona virus tracker created using Material-Ui, JavaScript, and React. Data is pulled from a third-party api and passed down to the different components.',
+    skills: [
       'Material-Ui',
       'CSS3',
       'JavaScript',
       'ReactJS',
       'ES6'
     ],
-    image : pic,
-    links : {
-      github : 'https://github.com/Adilkhan510/Corona-virus-Tracker',
-      preview : "https://covid-19-trackr.herokuapp.com/"
+    image: pic,
+    links: {
+      github: 'https://github.com/Adilkhan510/Corona-virus-Tracker',
+      preview: "https://covid-19-trackr.herokuapp.com/"
     }
-  }, 
+  },
 ];
