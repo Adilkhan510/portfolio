@@ -53,17 +53,6 @@ export default [
     },
   },
   {
-    title: 'Netflix Social',
-    description:
-      'A Full Stack application where users can sign up and talk about their favorite movies. Collaborated with my fellow classmate on this. Full CRUD for comments on movies.This was my first ever application full stack app. Its not as good as my recent apps however it shows how far I have come since I started programming',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'Node.js', 'MongoDB', 'Express'],
-    image: netflix,
-    links: {
-      github: 'https://github.com/Adilkhan510/Netflix-social',
-      preview: 'https://enigmatic-meadow-90169.herokuapp.com/',
-    },
-  },
-  {
     title: 'Covid-19 Tracker',
     description: 'Corona virus tracker created using Material-Ui, JavaScript, and React. Data is pulled from a third-party api and passed down to the different components.',
     skills: [
