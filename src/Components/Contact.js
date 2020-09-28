@@ -4,22 +4,22 @@ import BottomNavigation from '@material-ui/core/BottomNavigation';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { Typography, Button, Container } from '@material-ui/core';
 
-const useStyles = makeStyles(theme=>({
+const useStyles = makeStyles(theme => ({
   root: {
-    [theme.breakpoints.up('lg')] : {
-        width: "1000px",
-        height : "60px",
-        display : "flex",
-        flexDirection : "row",
-        justifyContent : "space-evenly",
-        alignItems : "center",
-        background: theme.palette.secondary.light
+    [theme.breakpoints.up('lg')]: {
+      width: "1000px",
+      height: "60px",
+      display: "flex",
+      flexDirection: "row",
+      justifyContent: "space-evenly",
+      alignItems: "center",
+      background: theme.palette.secondary.light
     },
-    width : "auto",
-    boxShadow : theme.shadows[6]
+    width: "auto",
+    boxShadow: theme.shadows[6]
   },
   icons: {
-      fontSize: "35px",
+    fontSize: "35px",
   }
 }));
 
@@ -33,19 +33,19 @@ export default function LabelBottomNavigation() {
 
   return (
     <BottomNavigation elevation={4} value={value} onChange={handleChange} className={classes.root}>
-        <Button>
-            <a href="https://github.com/Adilkhan510" className={classes.icons}><i className="fab fa-github-square icons" style={{color : "black"}}></i></a>
-        </Button>
-        <Button>
-            <a href="https://www.linkedin.com/in/adilmuneerkhan/" className={classes.icons}><i className="fab fa-linkedin-in" style={{
-                color: "blue"
-            }}></i></a>
-        </Button>
-        <Button>
-            <a href="https://drive.google.com/file/d/1OLaHNoaTcSe1ETkWB2CJRi96oX4jUjZu/view?usp=sharing" className={classes.icons}><i className="fa fa-file" style={{
-                color : "#D58180"
-            }}></i></a>
-        </Button>
+      <Button>
+        <a href="https://github.com/Adilkhan510" className={classes.icons}><i className="fab fa-github-square icons" style={{ color: "black" }}></i></a>
+      </Button>
+      <Button>
+        <a href="https://www.linkedin.com/in/adilmuneerkhan/" className={classes.icons}><i className="fab fa-linkedin-in" style={{
+          color: "blue"
+        }}></i></a>
+      </Button>
+      <Button>
+        <a href="https://drive.google.com/file/d/1xSd8n7knyb5s_i6L0Z7mLreJLmvKvA7X/view?usp=sharing" className={classes.icons}><i className="fa fa-file" style={{
+          color: "#D58180"
+        }}></i></a>
+      </Button>
     </BottomNavigation>
   );
 }
