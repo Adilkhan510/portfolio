@@ -5,6 +5,7 @@ import p from '../Images/portfolio.png';
 import pic from '../Images/pic3.png'
 import portfolio from '../Images/portfolio2.png'
 import movie from '../Images/movieMax.png'
+import lemonada from '../Images/lemonoda.png'
 export default [
   {
     title: 'Movie Max',
@@ -20,6 +21,22 @@ export default [
       'ES6'
     ],
     image: movie,
+    links: {
+      github: 'https://github.com/Adilkhan510/real-estate-website',
+      preview: 'https://real-estate-appreact.herokuapp.com/'
+    }
+  },
+  {
+    title: 'Lemonada',
+    description: 'Frontend web app created using styled components and React. Main Objective for creating this was to create a good looking UI.',
+    skills: [
+      'Styled Components',
+      'CSS3',
+      'JavaScript',
+      'ReactJS',
+      'ES6'
+    ],
+    image: lemonada,
     links: {
       github: 'https://github.com/Adilkhan510/MovieMax',
       preview: 'https://moviemax-2020.herokuapp.com/'
@@ -51,21 +68,5 @@ export default [
       github: 'https://github.com/Adilkhan510/HabitTracker-FrontEnd',
       preview: 'Blah Blah',
     },
-  },
-  {
-    title: 'Covid-19 Tracker',
-    description: 'Corona virus tracker created using Material-Ui, JavaScript, and React. Data is pulled from a third-party api and passed down to the different components.',
-    skills: [
-      'Material-Ui',
-      'CSS3',
-      'JavaScript',
-      'ReactJS',
-      'ES6'
-    ],
-    image: pic,
-    links: {
-      github: 'https://github.com/Adilkhan510/Corona-virus-Tracker',
-      preview: "https://covid-19-trackr.herokuapp.com/"
-    }
-  },
+  }
 ];
