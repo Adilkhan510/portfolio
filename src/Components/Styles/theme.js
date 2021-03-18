@@ -1,28 +1,15 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createMuiTheme } from "@material-ui/core/styles";
+import { purple, teal } from "@material-ui/core/colors";
 
-export default createMuiTheme({
-    palette : {
-        primary: {
-            // light: will be calculated from palette.primary.main,
-            main: '#F7F8F7',
-            // dark: will be calculated from palette.primary.main,
-            // contrastText: will be calculated to contrast with palette.primary.main
-          },
-          secondary: {
-            main: '#FCFCFB',
-            // dark: will be calculated from palette.secondary.main,
-          },
-          error : {
-              main : "#F5B431"
-          },
-          warning : {
-            main : "#A83A24"
-          },
-          info : {
-            main: "#3B3542"
-          },
-          main: {
-            main: "#D58180"
-          }
-    }
-})
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: "#80d8ff",
+    },
+    secondary: {
+      main: "#84ffff",
+    },
+  },
+});
+
+export default theme;
