@@ -49,24 +49,4 @@ export default [
       preview: "https://adilkhan.me",
     },
   },
-  {
-    title: "Habit Tracker",
-    description:
-      "Created user stories, sketched out wireframes, and incorporated RESTful API methods to develop full stack application allowing users to input and track their daily habits data.",
-    skills: [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "ES6",
-      "ReactJS",
-      "MongoDB",
-      "Node.js",
-      "Express",
-    ],
-    image: habit,
-    links: {
-      github: "https://github.com/Adilkhan510/HabitTracker-FrontEnd",
-      preview: "Blah Blah",
-    },
-  },
 ];
